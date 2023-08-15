@@ -45,7 +45,7 @@ Alternation is the term in regular expression that is actually a simple OR. In a
 As with the OR Operator, we do not contain any flags however. Flags affect the search functions of regular expressions one such flag is i. With this flag the search looks for all matches, without it -only the first match is returned. 
 
 ### Character Escapes
-A characer escapes represents a character that may not be able to be conveniently represented in its literal form. An example from our code would be \., the forward slash before the peroid causes the character afterword to mean itseld literally. So in this case instead of being a special character the period is translated as a normal period.
+A characer escapes represents a character that may not be able to be conveniently represented in its literal form. An example from our code would be "\." , the forward slash before the period causes the character afterword to mean itself literally. So in this case instead of being a special character the period is translated as a normal period.
 
 ## Author
 My name is Daniel Pacheco, I am currently studying as a student at the University of Arizona to become a full-stack web developer. You can reach me by my github, https://github.com/Daniel-0117
